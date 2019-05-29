@@ -1,10 +1,36 @@
 {
   "private": true,
-  "license": "MIT",
+  "license": "GPL-3.0",
   "scripts": {
-    "lint-fix": "prettier --write **/**/*"
+    "lint-fix": "prettier --write **/**/*",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "devDependencies": {
-    "prettier": "^1.16.4"
-  }
+    "prettier": "^1.16.4",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "name": "next-learn-demo",
+  "description": "This repository is meant to be used with the Next.js tutorial on https://nextjs.org/learn.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raydot/next-learn-demo.git"
+  },
+  "keywords": [
+    "react",
+    "nextjs"
+  ],
+  "author": "Dave Kanter",
+  "bugs": {
+    "url": "https://github.com/raydot/next-learn-demo/issues"
+  },
+  "homepage": "https://github.com/raydot/next-learn-demo#readme"
 }
